@@ -1,0 +1,176 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+body {
+	font-family: "Fira Sans";
+	background-color: #F0ECEE;
+	font-size: 18px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+p {
+	color: #88898B;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+em {
+	color: #FF4850;
+	font-style: normal;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+a {
+	color: #88898B;
+	text-decoration: none;
+}
+
+ul {
+	list-style-position: inside;
+}
+
+a:hover {
+	color: #FF4850;
+}
+
+.bold {
+	color: black;
+}
+
+.displayHeader .bold {
+	font-size: 24px;
+}
+
+.button {
+	background-color: #FF4850;
+	color: #F0ECEE;
+	padding: 14px;
+	border-radius: 7px;
+	font-size: 18px;
+	font-weight: 600;
+	width: 100%;
+}
+
+.button:hover {
+	background-color: #CCCCCC;
+	color: #FF4850;
+}
+
+.grey-text {
+	color: #88898B;
+}
+
+.midContainer {
+	max-width: 100%;
+}
+
+.midPage-1 {
+	padding-top: 10px;
+}
+
+nav li {
+	list-style: none;
+}
+
+.displayHeader {
+	font-size: 24px;
+	text-align: left;
+}
+
+.displayButton {
+	text-align: left;
+}
+
+.nav-link {
+	padding: 1px;
+}
+
+
+
+
+
+@media (min-width: 768px){
+	
+	body{
+		background-image: url("bulldog.jpg");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		padding-top: 10px;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	
+	li {
+		display: inline;
+		font-size: 18px;
+	}
+	
+	.nav-link {
+		padding: 5px;
+	}
+	
+	p {
+		font-weight: 400;
+		font-size: 18px;
+	}
+	
+	.midContainer {
+		max-width: 40%;
+	}
+	
+	.midPage-1 {
+		padding-top: 20%
+	}
+	
+	.button {
+		background-color: #FF4850;
+		color: #F0ECEE;
+		padding: 10px;
+		border-radius: 5px;
+		font-size: 16px;
+		width: auto;
+	}
+	
+	.nav-menu {
+		text-align: right;
+	}
+	
+	.top-nav {
+		padding: 10px;
+		display: flex;
+		align-items: center;
+	}
+
+	.displayHeader .bold {
+		font-size: 24px;
+		text-align: left;
+		justify-content: center;
+		font-weight: 600;
+	}
+
+	.nav-menu {
+		flex: 4;
+		text-align: right;
+	}
+
+	.displayButton {
+		text-align: right;
+		flex: 1;
+	}
+	
+	.displayButton .button {
+		max-width: 110px;
+	}
+	
+	.midPage-1 .button {
+		max-width: 250px;
+	}
+
+}
