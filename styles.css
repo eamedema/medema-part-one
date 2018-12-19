@@ -8,7 +8,6 @@ body {
 	padding-top: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
-	max-height: 100%;
 	max-width: 100%;
 }
 
@@ -34,6 +33,7 @@ a {
 
 ul {
 	list-style-position: inside;
+	
 }
 
 a:hover {
@@ -88,9 +88,11 @@ nav li {
 	text-align: left;
 }
 
-.nav-link {
-	padding: 1px;
+.nav-menu {
+	padding-inline-start: 0px;
 }
+
+
 
 
 
@@ -138,10 +140,6 @@ nav li {
 		width: auto;
 	}
 	
-	.nav-menu {
-		text-align: right;
-	}
-	
 	.top-nav {
 		padding: 10px;
 		display: flex;
@@ -155,13 +153,18 @@ nav li {
 		font-weight: 600;
 	}
 
-	.nav-menu {
+	
+	.nav-main {
 		flex: 4;
 		text-align: right;
 	}
 
+	.nav-menu {
+		padding-inline-start: 40px;
+	}
+	
 	.displayButton {
-		text-align: right;
+		text-align: center;
 		flex: 1;
 	}
 	
